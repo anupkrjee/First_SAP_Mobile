@@ -1,0 +1,10 @@
+{
+    "_Type": "Action.Type.OfflineOData.Close",
+    "Service": "/anup_first_mdk_app/Services/AnupFirstMDKApp.service",
+    "Force": true,
+    "ActionResult": {
+        "_Name": "close"
+    },
+    "OnSuccess": "/anup_first_mdk_app/Actions/AnupFirstMDKApp/Service/CloseOfflineSuccessMessage.action",
+    "OnFailure": "/anup_first_mdk_app/Actions/AnupFirstMDKApp/Service/CloseOfflineFailureMessage.action"
+}

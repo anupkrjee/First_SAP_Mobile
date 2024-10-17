@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@sap/mdk-tools": "^1.11.0"
+  }
+}

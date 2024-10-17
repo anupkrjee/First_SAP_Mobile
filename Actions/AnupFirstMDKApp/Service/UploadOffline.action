@@ -1,0 +1,9 @@
+{
+    "Service": "/anup_first_mdk_app/Services/AnupFirstMDKApp.service",
+    "_Type": "Action.Type.OfflineOData.Upload",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnSuccess": "/anup_first_mdk_app/Actions/AnupFirstMDKApp/Service/DownloadStartedMessage.action",
+    "OnFailure": "/anup_first_mdk_app/Actions/AnupFirstMDKApp/Service/SyncFailureMessage.action"
+}

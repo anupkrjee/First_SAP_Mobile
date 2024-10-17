@@ -1,0 +1,7 @@
+{
+    "Animated": true,
+    "CompletionTimeout": 3,
+    "Message": "Checking for Updates...",
+    "OnSuccess": "/anup_first_mdk_app/Actions/Application/AppUpdate.action",
+    "_Type": "Action.Type.ProgressBanner"
+}

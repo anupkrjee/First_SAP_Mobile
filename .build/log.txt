@@ -1,0 +1,2 @@
+Pass:
+	Generated bundle file /home/user/projects/anup_first_mdk_app/.build/anup_first_mdk_app/.build/uploadBundle.zip

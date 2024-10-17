@@ -1,0 +1,10 @@
+{
+    "Service": "/anup_first_mdk_app/Services/AnupFirstMDKApp.service",
+    "DefiningRequests": [],
+    "_Type": "Action.Type.OfflineOData.Download",
+    "ActionResult": {
+        "_Name": "sync"
+    },
+    "OnFailure": "/anup_first_mdk_app/Actions/AnupFirstMDKApp/Service/SyncFailureMessage.action",
+    "OnSuccess": "/anup_first_mdk_app/Rules/AnupFirstMDKApp/ErrorArchive_CheckForSyncError.js"
+}

@@ -1,0 +1,87 @@
+{
+	"Controls": [
+		{
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			},
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.AnalyticCardCollection",
+					"_Name": "SectionAnalyticCardCollection1",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true
+					},
+					"AnalyticCard": {
+						"ChartType": "Column",
+						"Title": "Sales for Store",
+						"Subtitle": "Displaying of Sales for Store",
+						"TrendImage": "res://arrow_up.png",
+						"IsTrendUpward": true,
+						"TrendTitle": "57.8%",
+						"StatusText": "8h ago",
+						"LeadingUnit": "$",
+						"Metric": "3,307,000",
+						"TrailingUnit": "USD",
+						"SeriesTitle": [
+							"S1"
+						],
+						"SeriesColor": [
+							"#5899DA"
+						],
+						"DataSeries": {
+							"Data": [
+								[
+									431000,
+									494000,
+									491000,
+									536000,
+									675000,
+									680000
+								]
+							],
+							"CategoryTitles": [
+								"C1",
+								"C2",
+								"C3",
+								"C4",
+								"C5",
+								"C6"
+							],
+							"CategoryLabelVisible": true,
+							"NumericLabelVisible": false
+						},
+						"_Type": "Card.Type.Chart"
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Main",
+	"Caption": "Airdit Test App",
+	"PrefersLargeCaption": true,
+	"ActionBar": {
+		"Items": [
+			{
+				"_Name": "ActionBarItem0",
+				"Caption": "User Menu",
+				"Icon": "sap-icon://customer",
+				"Position": "Left",
+				"IsIconCircular": false,
+				"Visible": true,
+				"OnPress": "/anup_first_mdk_app/Actions/Application/UserMenuPopover.action"
+			}
+		],
+		"_Name": "ActionBar1"
+	}
+}

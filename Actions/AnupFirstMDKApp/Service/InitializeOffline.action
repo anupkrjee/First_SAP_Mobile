@@ -1,0 +1,11 @@
+{
+    "Service": "/anup_first_mdk_app/Services/AnupFirstMDKApp.service",
+    "DefiningRequests": [],
+    "_Type": "Action.Type.ODataService.Initialize",
+    "ShowActivityIndicator": true,
+    "ActivityIndicatorText": "Downloading...",
+    "ActionResult": {
+        "_Name": "init"
+    },
+    "OnFailure": "/anup_first_mdk_app/Actions/AnupFirstMDKApp/Service/InitializeOfflineFailureMessage.action"
+}

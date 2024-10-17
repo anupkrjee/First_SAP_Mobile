@@ -1,0 +1,51 @@
+{
+	"Credential": "cf",
+	"Template": {
+		"Id": "@ext-mdkvsc-npm-dev/generator-mdk",
+		"Name": "Base",
+		"Version": "0.0.1"
+	},
+	"CF": {
+		"Target": "https://api.cf.us10-001.hana.ondemand.com",
+		"Organization": "cc297bd0-83f2-4b2c-b93f-07929dde4217",
+		"Space": "a9fc4ba1-f8d8-4cee-9e23-4d1d77ee4b30"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/cc297bd0-83f2-4b2c-b93f-07929dde4217/space/a9fc4ba1-f8d8-4cee-9e23-4d1d77ee4b30",
+		"AppId": "com.anupmdk.app",
+		"Destination": [
+			"AnupFirstMDKApp"
+		]
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=com.anupmdk.app&ClientId=5a239d49-f8ca-4b44-b71e-21dbf66f186f&ServerUrl=https://41163634trial-dev-com-anupmdk-app.cfapps.us10-001.hana.ondemand.com&SapCloudPlatformEndpoint=https://41163634trial-dev-com-anupmdk-app.cfapps.us10-001.hana.ondemand.com&AuthorizationEndpointUrl=https://41163634trial-dev-com-anupmdk-app.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://41163634trial-dev-com-anupmdk-app.cfapps.us10-001.hana.ondemand.com&TokenUrl=https://41163634trial-dev-com-anupmdk-app.cfapps.us10-001.hana.ondemand.com/oauth2/api/v1/token&multiUser=false"
+	},
+	"LCAP": {
+		"FullName": "",
+		"Service": [],
+		"sourceTemplate": {
+			"id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+			"version": "1.40.12"
+		}
+	},
+	"platforms": {
+		"android": {
+			"applicationID": "com.anupmdk.app",
+			"permissions": [
+				"android.permission.CAMERA",
+				"android.permission.INTERNET"
+			],
+			"versionCode": 1,
+			"versionName": "1.0.0",
+			"targetSdkVersion": 34
+		}
+	},
+	"Build": {
+		"SourceMap": true,
+		"TSTarget": "es6",
+		"WMF": true
+	}
+}

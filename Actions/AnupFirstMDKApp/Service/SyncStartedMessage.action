@@ -1,0 +1,8 @@
+{
+    "Message": "Upload in progress...",
+    "CompletionMessage": "Sync completed",
+    "CompletionTimeout": 7,
+    "OnSuccess": "/anup_first_mdk_app/Actions/AnupFirstMDKApp/Service/UploadOffline.action",
+    "OnFailure": "/anup_first_mdk_app/Actions/AnupFirstMDKApp/Service/SyncFailureMessage.action",
+    "_Type": "Action.Type.ProgressBanner"
+}

@@ -1,0 +1,16 @@
+{
+    "mobile": {
+        "api": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/cc297bd0-83f2-4b2c-b93f-07929dde4217/space/a9fc4ba1-f8d8-4cee-9e23-4d1d77ee4b30",
+        "app": "com.anupmdk.app",
+        "destinations": [
+            {
+                "name": "AnupFirstMDKApp",
+                "relativeUrl": "",
+                "metadata": {
+                    "odataContent": ""
+                },
+                "type": "Mobile"
+            }
+        ]
+    }
+}
